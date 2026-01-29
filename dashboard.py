@@ -23,8 +23,7 @@ with col1:
     st.header("🥉")
     st.subheader("Explorer")
     st.write("Discovery and First Steps")
-    st.link_button("Go to Level 1", "https://level-1-ssc-2026-vde8mt7hhorr5zgom3ac9e.streamlit.app
- ", use_container_width=True)
+    st.link_button("Go to Level 1", "https://level-1-ssc-2026-vde8mt7hhorr5zgom3ac9e.streamlit.app", use_container_width=True)
 
 with col2:
     st.header("🥈")
