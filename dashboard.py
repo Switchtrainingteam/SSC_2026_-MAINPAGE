@@ -23,19 +23,20 @@ with col1:
     st.header("🥉")
     st.subheader("Explorer")
     st.write("Discovery and First Steps")
-    st.link_button("Go to Level 1", "https://level-1-ssc-2026-vde8mt7hhorr5zgom3ac9e.streamlit.app", use_container_width=True)
+    st.link_button("Go to Level 1", "https://level-1-ssc-2026-vde8mt7hhorr5zgom3ac9e.streamlit.app
+ ", use_container_width=True)
 
 with col2:
     st.header("🥈")
     st.subheader("Adventurer")
     st.write("Bravery and Skill")
-    st.link_button("Go to Level 2", "https://level-2-ssc-2026-cz4pctz4ls96suuku3quuc.streamlit.app/", use_container_width=True)
+    st.link_button("Go to Level 2", "", use_container_width=True)
 
 with col3:
     st.header("🥇")
     st.subheader("Master")
     st.write("Legacy and Ultimate Challenge")
-    st.link_button("Go to Level 3", "https://level-3-ssc-2026-2texh4j97wnqc4awh9po7k.streamlit.app/", use_container_width=True)
+    st.link_button("Go to Level 3", "", use_container_width=True)
 
 st.markdown("---")
 st.caption("© 2026 Switch Staff Challenge | Insight Team")
