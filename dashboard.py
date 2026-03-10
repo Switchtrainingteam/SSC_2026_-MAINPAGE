@@ -24,6 +24,7 @@ with col1:
     st.subheader("Explorer")
     st.write("Discovery and First Steps")
     st.link_button("Go to Level 1 iPhone and Apple Watch", "https://levelssc2026januaryquest-chdvfgsnwh3vfajfeaj9pe.streamlit.app", use_container_width=True)
+    st.link_button("Go to Level 1 iPad", "https://ssc2026februaryquest-hjxkt9mlcfccphmmuxetgw.streamlit.app", use_container_width=True)
 
 with col2:
     st.header("🥈")
