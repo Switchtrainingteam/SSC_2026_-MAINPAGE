@@ -28,7 +28,6 @@ with col1:
     st.link_button("iPad", "https://ssc2026februaryquest-hjxkt9mlcfccphmmuxetgw.streamlit.app", use_container_width=True)
 
 with col2:
-    with col1:
     st.markdown("<h2 style='text-align: center;'>🥈</h2>", unsafe_allow_html=True)
     st.markdown("<h3 style='text-align: center;'>Adventurer</h3>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center;'>Bravery and Skill</p>", unsafe_allow_html=True)
