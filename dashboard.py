@@ -28,10 +28,14 @@ with col1:
     st.link_button("iPad", "https://ssc2026februaryquest-hjxkt9mlcfccphmmuxetgw.streamlit.app", use_container_width=True)
 
 with col2:
-    st.header("🥈")
-    st.subheader("Adventurer")
-    st.write("Bravery and Skill")
-    st.link_button("Go to Level 2", "", use_container_width=True)
+    with col1:
+    st.markdown("<h2 style='text-align: center;'>🥈</h2>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center;'>Adventurer</h3>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center;'>Bravery and Skill</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center;'>Go to Level 2</p>", unsafe_allow_html=True)
+    
+    st.link_button("iPhone and Apple Watch", "https://levelssc2026januaryquest-chdvfgsnwh3vfajfeaj9pe.streamlit.app", use_container_width=True)
+    st.link_button("iPad", "https://ssc2026februaryquest-hjxkt9mlcfccphmmuxetgw.streamlit.app", use_container_width=True)
 
 with col3:
     st.header("🥇")
