@@ -26,6 +26,7 @@ with col1:
     st.write("Go to Level 1")
     st.link_button("iPhone and Apple Watch", "https://levelssc2026januaryquest-chdvfgsnwh3vfajfeaj9pe.streamlit.app", use_container_width=True)
     st.link_button("iPad", "https://ssc2026februaryquest-hjxkt9mlcfccphmmuxetgw.streamlit.app", use_container_width=True)
+    st.link_button("Mac", "https://ssc2026-mainpage-qsqyxlxdaswz2zebu28mfq.streamlit.app", use_container_width=True)
 
 with col2:
     st.header("🥈")
